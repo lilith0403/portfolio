@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 24px 0px;
+    background-color: rgb(0, 52, 110);
+    color:rgb(194, 243, 255) ;
+    font-family: 'Arvo', serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 36px;    
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav li a{
+    color: rgb(194, 243, 255);
+    text-decoration: none;
+}
+
+.container,
+.contato{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a:hover{
+    color: rgb(115, 230, 250);
+}
+
+section .container,
+section .curriculo,
+section .projetos,
+section .contato,
+section .redes_sociais{
+    padding: 24px;
+    color:rgb(194, 243, 255);
+}
+
+section p{
+    text-align: justify;
+    width: 350px;
+}
+
+#about img {
+    width: 350px;
+    margin-top: 24px;
+}
+
+#curriculum .curriculo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 89px;
+    margin-right: 300px;
+}
+
+#curriculum img{
+    width: 500px;
+    margin-top: 24px;
+}
+
+.curriculo{
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.projetos{
+    position: absolute;
+    right: 8%;
+    margin-top: 70px;
+    max-width:max-content;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projetos h2{
+    font-size: 33px;
+}
+
+.projetos img{
+    height: 200px;
+    outline:auto;
+    outline-color: black;
+    padding: 2px;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-right: 200px;
+    position: relative;
+    right: -8%;
+}
+
+#projects .projetos{
+    text-align: center;
+}
+
+.contato h2 {
+    margin-top: 550px;
+    margin-bottom: 24px;
+}
+
+form input,
+form textarea,
+form button{
+    width: 500px;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgb(0, 52, 110);
+    color: rgb(194, 243, 255);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color:rgb(115, 230, 250);
+    color: rgb(0, 52, 110) ;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(115, 230, 250);
+}
+
+.redes_sociais{
+    position: absolute;
+    top: 139%;
+    right: 0%;
+    margin-right: 500px;
+    text-align: center;
+}
+
+.redes_sociais li{
+    display: inline;
+    margin-left: 36px;
+}
+
+.redes_sociais li img{
+    height: 60px;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-left: 500px absolute;
+}
+
+
+
